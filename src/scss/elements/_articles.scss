@@ -2,6 +2,7 @@
   background-color: $baseColor;
   align-items: flex-start;
   padding: 0;
+  margin-bottom: 15px;
 
   .box {
     display: flex;
@@ -21,7 +22,7 @@
       background-image: url("../images/olive-oil-1412361__340.jpg");
       background-size: cover;
       background-position: center;
-      border-radius: 5px;
+      border-radius: 60px;
 
       &.one {
         background-image: url("https://cdn.pixabay.com/photo/2017/12/05/20/10/pizza-3000285_960_720.png");
