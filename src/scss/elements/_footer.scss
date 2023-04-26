@@ -2,4 +2,20 @@
   background-color: $baseColor;
   padding: 5px;
   font-family: $primaryFont;
+  justify-content: center;
+  align-items: center;
+
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    .menu__item {
+      display: inline-block;
+      font-size: 1.4rem;
+      color: $fontColor;
+    }
+  }
 }

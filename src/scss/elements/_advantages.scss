@@ -24,11 +24,11 @@
     }
 
     &.right {
-      background-image: url("../images/motor-scooter-4837310_960_720.jpg");
+      background-image: url("../images/prague-2852349_960_720.jpg");
     }
 
-    h2 {
-      position: absolute;
+    .box__hdl {
+      position: relative;
       color: $fontColor;
       text-align: right;
       margin: 10px;
@@ -37,7 +37,7 @@
       text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
       transition: all 0.5s;
     }
-    &:hover h2 {
+    &:hover .box__hdl {
       transform: scale(1.2) translate(-10px, 0px);
     }
   }
