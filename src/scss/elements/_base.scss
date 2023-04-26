@@ -1,3 +1,14 @@
 body {
   background-image: url("../images/wood-2203740_1280.jpg");
 }
+
+.container {
+  max-width: $max-width;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5px;
+  font-family: $primaryFont;
+}

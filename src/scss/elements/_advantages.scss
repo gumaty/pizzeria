@@ -1,0 +1,44 @@
+.advantages {
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  height: 210px;
+  padding: 0;
+
+  .box {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 160px;
+    margin: 20px;
+    background-image: url("../images/olive-oil-1412361__340.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 15px;
+    transition: all 0.5s;
+    &.center {
+      background-image: url("../images/cook-1375788_960_720.jpg");
+    }
+
+    &.right {
+      background-image: url("../images/motor-scooter-4837310_960_720.jpg");
+    }
+
+    h2 {
+      position: absolute;
+      color: $fontColor;
+      text-align: right;
+      margin: 10px;
+      font-size: 1rem;
+      font-family: $secondaryFont;
+      text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+      transition: all 0.5s;
+    }
+    &:hover h2 {
+      transform: scale(1.2) translate(-10px, 0px);
+    }
+  }
+}

@@ -1,5 +1,40 @@
 .header {
   background-color: $baseColor;
-  padding: 5px;
-  font-family: $primaryFont;
+  align-items: center;
+
+  .logo {
+    width: 100px;
+    padding: 0 15px
+  }
+
+  .logo__img {
+    width: 100%;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    gap: 50px;
+
+    .menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .nav__item {
+        display: inline-block;
+        font-size: 1.4rem;
+        color: $fontColor;
+      }
+    }
+
+    .header__phone {
+      .phone {
+        color: $fontColor;
+        font-size: 1.4rem;
+      }
+    }
+  }
 }
